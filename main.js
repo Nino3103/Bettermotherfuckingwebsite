@@ -59,13 +59,7 @@ for (j = 0; j < y.length; j++) {
 y[j].style.fontFamily = "Comic Sans MS";}
   }
 
-function psy(){
-  var allParas = document.querySelectorAll('p');
-  allParas.style.color = 'blue';}
 
-  ;
-
-  setTimeout(psy,5000);
 /*
 var button = document.createElement('PSY');
 button.innerHTML = 'PSYCHEDELIA';
