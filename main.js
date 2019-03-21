@@ -24,4 +24,4 @@ var top = (height - h) / 2 / systemZoom + dualScreenTop
     if (window.focus) newWindow.focus();
 }
 
-setTimeout(PopupCenter('http://www.xtf.dk','WESSSH','900','500';3000);
+setTimeout(PopupCenter('https://nino3103.github.io/bettermotherfuckingwebsite/','WESSSH','900','500';3000);
