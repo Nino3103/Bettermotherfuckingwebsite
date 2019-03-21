@@ -1,6 +1,19 @@
 
 
-function popup10() {
+
+function popopop() {
+  var txt;
+  if (confirm("Veux-tu aller sur le site xxxvidsxxx ? No bullshit bro")) {
+    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+  } else {
+    txt = "Dommage";
+  }
+  
+}
+
+setTimeout(popopop,2000);
+
+/* function popup10() {
   alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");} ;
 
 setTimeout(function(){alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please")},2000);
@@ -24,4 +37,4 @@ var top = (height - h) / 2 / systemZoom + dualScreenTop ;
     if (window.focus) newWindow.focus();
 }
 
-setTimeout(PopupCenter('https://nino3103.github.io/bettermotherfuckingwebsite/','WESSSH','900','500';5000);
+setTimeout(PopupCenter('https://nino3103.github.io/bettermotherfuckingwebsite/','WESSSH','900','500';5000); */
