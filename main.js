@@ -7,11 +7,84 @@ function popopop() {
     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
   } else {
     txt = "Dommage";
-  }
-  
-}
+  };
 
-setTimeout(popopop,2000);
+};
+
+setTimeout(popopop,10000);
+
+
+/* Crée un bouton qui déclenche le "Mode Psychédélique" : quand un utilisateur clique sur ce bouton, le background de la page devra changer en magenta.
+
+Puisque c'est toi, nous allons te proposer d'autres fonctionnalités. Le bouton devra aussi :
+
+Changer la couleur des polices des paragraphes en blue
+Changer la couleur des polices de tous les headings en green
+Changer la police des paragraphes en papyrus et la police des headers en Comic Sans
+
+text.style.fontSize = "14pt";
+text.style.fontFamily = "Comic Sans MS";
+text.style.color = "green";
+*/
+
+// bouton :
+
+// changement couleur des paragraphes
+
+function colora()
+  {
+    // changer couleur paragraphes en bleu
+    document.body.style.background = 'red';
+    var x = document.getElementsByTagName("P");
+    var i;
+    for (i = 0; i < x.length; i++) {
+    x[i].style.color = "blue";}
+
+// changer couleur titres en vert
+    var y = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+    var j;
+    for (j = 0; j < y.length; j++) {
+    y[j].style.color = "green";}
+
+// changer police paragraphes en Papyrus
+var y = document.querySelectorAll("P");
+var j;
+for (j = 0; j < y.length; j++) {
+y[j].style.fontFamily = "Papyrus";}
+
+// changer police titre en Comics Sans
+var y = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+var j;
+for (j = 0; j < y.length; j++) {
+y[j].style.fontFamily = "Comic Sans MS";}
+  }
+
+function psy(){
+  var allParas = document.querySelectorAll('p');
+  allParas.style.color = 'blue';}
+
+  ;
+
+  setTimeout(psy,5000);
+/*
+var button = document.createElement('PSY');
+button.innerHTML = 'PSYCHEDELIA';
+
+document.body.appendChild(button);
+button.addEventListener('click', psy(){
+    var paragraphes = document.getElementByTagName("p");
+    paragraphes.style.color = 'blue';
+  });
+*/
+
+
+// changement couleur des headings   headings = document.getElementByTagName("h1, h2, h3");
+// headings.style.color = 'green';
+
+
+// changement police paragraphes
+
+
 
 /* function popup10() {
   alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");} ;
