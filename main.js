@@ -1,10 +1,10 @@
 
 
-/*function popup10() {
+function popup10() {
   alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");} ;
 
 setTimeout(function(){alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please")},10000);
-*/
+
 
 
 function PopupCenter(url, title, w, h) {
