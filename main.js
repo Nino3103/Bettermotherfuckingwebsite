@@ -3,11 +3,11 @@
 function popup10() {
   alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");} ;
 
-setTimeout(function(){alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please")},10000);
+setTimeout(function(){alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please")},2000);
 
 
 
-function PopupCenter(url, title, w, h) {
+/* function PopupCenter(url, title, w, h) {
     // Fixes dual-screen position                         Most browsers      Firefox
     var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : window.screenX;
     var dualScreenTop = window.screenTop != undefined ? window.screenTop : window.screenY;
@@ -16,8 +16,8 @@ function PopupCenter(url, title, w, h) {
     var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
 
     var systemZoom = width / window.screen.availWidth;
-var left = (width - w) / 2 / systemZoom + dualScreenLeft
-var top = (height - h) / 2 / systemZoom + dualScreenTop
+var left = (width - w) / 2 / systemZoom + dualScreenLeft ;
+var top = (height - h) / 2 / systemZoom + dualScreenTop ;
     var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w / systemZoom + ', height=' + h / systemZoom + ', top=' + top + ', left=' + left);
 
     // Puts focus on the newWindow
@@ -25,3 +25,4 @@ var top = (height - h) / 2 / systemZoom + dualScreenTop
 }
 
 setTimeout(PopupCenter('https://nino3103.github.io/bettermotherfuckingwebsite/','WESSSH','900','500';3000);
+*/
